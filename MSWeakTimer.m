@@ -35,6 +35,7 @@
 @property (nonatomic, assign) SEL selector;
 @property (nonatomic, strong) id userInfo;
 @property (nonatomic, assign) BOOL repeats;
+@property (copy) MSWeakTimerBlock blocoTimer;
 
 @property (nonatomic, ms_gcd_property_qualifier) dispatch_queue_t privateSerialQueue;
 
